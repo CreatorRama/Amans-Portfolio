@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import chatbot from '../videos/chatbot.mp4'
-import excalidraw from '../videos/excalidraw.mp4'
+import excalidraw from '../videos/excali.mp4'
 import excal from '../assets/chatbot.png';
 import chat from '../assets/excalidraw.png';
 import student from '../assets/student.png';
