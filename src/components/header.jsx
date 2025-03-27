@@ -83,13 +83,18 @@ const Header = () => {
             <a href="#contact" className="text-gray-300 hover:text-indigo-600 font-medium transition-colors">Contact</a>
           </nav>
 
-          {/* Mobile Menu */}
-          <button className="md:hidden text-gray-300" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
+            {/* Mobile Menu */}
+            <button 
+            className={`md:hidden relative top-2 right-2  ${!isMobileMenuOpen ? 'text-gray-300' : 'text-red-300'} ${
+              isMobileMenuOpen ? 'z-40' : 'z-[60]'
+            }`} 
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+          >
             {isMobileMenuOpen ? "✖" : "☰"}
           </button>
 
           {isMobileMenuOpen && (
-            <div className="md:hidden bg-white mt-4 rounded-lg shadow-lg p-4 absolute left-4 right-4">
+            <div className="md:hidden bg-white mt-4 rounded-lg shadow-lg p-4 absolute top-4 left-4 right-4">
               <nav className="flex flex-col space-y-4">
                 <a href="#home" className="text-gray-800 hover:text-indigo-600 font-medium" onClick={() => setIsMobileMenuOpen(false)}>Home</a>
                 <a href="#projects" className="text-gray-800 hover:text-indigo-600 font-medium" onClick={() => setIsMobileMenuOpen(false)}>Projects</a>
