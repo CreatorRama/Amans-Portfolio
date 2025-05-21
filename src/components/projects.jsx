@@ -1,9 +1,15 @@
 import React, { useState, useRef } from 'react';
 import chatbot from '../videos/chatbot.mp4'
 import excalidraw from '../videos/excali.mp4'
+import apolloVideo from '../videos/apollo-video.mp4'; 
+import blogApp from '../videos/blog-app-video.mp4';   
+import taskTracker from '../videos/task-tracker-video.mp4'; 
 import excal from '../assets/chatbot.png';
 import chat from '../assets/excalidraw.png';
 import student from '../assets/student.png';
+import apollo from '../assets/Apollo.png';
+import blog from '../assets/Blog.png';
+import task from '../assets/task.png';
 
 const ProjectSection = () => {
     const projects = [
@@ -36,6 +42,36 @@ const ProjectSection = () => {
             demoUrl: "https://student-techer-appointment-system.vercel.app",
             thumbnailUrl: student,
             githubUrl: "https://github.com/CreatorRama/student-techer-appointment-system",
+        },
+        {
+            id: 4,
+            title: "Blog-Creator-App",
+            description: "A Blog Creating App where we can publish and edit blogs ",
+            technologies: ["NextJs", "Express", "Mongodb"],
+            videoUrl: blogApp,
+            demoUrl: "https://blog-app-fawn-delta.vercel.app",
+            thumbnailUrl: blog,
+            githubUrl: "https://github.com/CreatorRama/Blog-App",
+        },
+        {
+            id: 5,
+            title: "Task Tracker System",
+            description: "A Task creating app and track the status ",
+            technologies: ["React", "Express", "Mongodb"],
+            videoUrl: taskTracker,
+            demoUrl: "https://task-tracker-tau-neon.vercel.app",
+            thumbnailUrl: task,
+            githubUrl: "https://github.com/CreatorRama/Task-Tracker",
+        },
+        {
+            id: 6,
+            title: "Apollo-clone",
+            description: "A doctor appointment system through apollo where we filter doctors based on various categories",
+            technologies: ["NextJs", "Express", "Mongodb"],
+            videoUrl: apolloVideo,
+            demoUrl: "https://apollo-clone-alpha.vercel.app",
+            thumbnailUrl: apollo,
+            githubUrl: "https://github.com/CreatorRama/Apollo-clone",
         }
     ];
 
