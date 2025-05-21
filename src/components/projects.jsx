@@ -1,9 +1,7 @@
 import React, { useState, useRef } from 'react';
 import chatbot from '../videos/chatbot.mp4'
 import excalidraw from '../videos/excali.mp4'
-import apolloVideo from '../videos/apollo-video.mp4'; 
 import blogApp from '../videos/blog-app-video.mp4';   
-import taskTracker from '../videos/task-tracker-video.mp4'; 
 import excal from '../assets/chatbot.png';
 import chat from '../assets/excalidraw.png';
 import student from '../assets/student.png';
@@ -58,7 +56,7 @@ const ProjectSection = () => {
             title: "Task Tracker System",
             description: "A Task creating app and track the status ",
             technologies: ["React", "Express", "Mongodb"],
-            videoUrl: taskTracker,
+            videoUrl: blogApp,
             demoUrl: "https://task-tracker-tau-neon.vercel.app",
             thumbnailUrl: task,
             githubUrl: "https://github.com/CreatorRama/Task-Tracker",
@@ -68,7 +66,7 @@ const ProjectSection = () => {
             title: "Apollo-clone",
             description: "A doctor appointment system through apollo where we filter doctors based on various categories",
             technologies: ["NextJs", "Express", "Mongodb"],
-            videoUrl: apolloVideo,
+            videoUrl: blogApp,
             demoUrl: "https://apollo-clone-alpha.vercel.app",
             thumbnailUrl: apollo,
             githubUrl: "https://github.com/CreatorRama/Apollo-clone",
