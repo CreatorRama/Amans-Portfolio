@@ -10,6 +10,7 @@ const SkillsSection = () => {
         { name: "CSS", proficiency: 85 },
         { name: "JavaScript", proficiency: 88 },
         { name: "React", proficiency: 85 },
+        { name: "NextJs", proficiency: 75 },
         { name: "Tailwind CSS", proficiency: 80 },
       ]
     },
@@ -19,6 +20,7 @@ const SkillsSection = () => {
         { name: "Node.js", proficiency: 82 },
         { name: "Express", proficiency: 78 },
         { name: "MongoDB", proficiency: 75 },
+        { name: "Flask", proficiency: 75 },
         { name: "SQL", proficiency: 70 },
         { name: "Firebase", proficiency: 72 }
       ]
