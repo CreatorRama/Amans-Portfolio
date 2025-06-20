@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 // Import the image properly - this is the React way to import assets
-import profileImage from '../assets/pf.jpg';
+import profileImage from '../assets/lpf.jpg';
 
 const HeroSection = () => {
   // Function to create snowflakes and animate them
