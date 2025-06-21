@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 // Import the image properly - this is the React way to import assets
-import profileImage from '../assets/lpf.jpg';
+import profileImage from '../assets/pf-1.jpg';
 
 const HeroSection = () => {
   // Function to create snowflakes and animate them
@@ -202,8 +202,8 @@ const HeroSection = () => {
             <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-violet-300 rounded-full opacity-40 blur-2xl"></div>
             
             {/* Profile image with enhanced styling and animated gradient */}
-            <div className="relative z-10">
-              <div className="w-64 h-64 md:w-80 md:h-80  rounded-full shadow-lg relative">
+            <div className=" z-10">
+              <div className="w-64 h-64 md:w-80 md:h-80  rounded-full shadow-2xl relative">
                 {/* Animated gradient border */}
                 <div className="animated-border"></div>
                 
