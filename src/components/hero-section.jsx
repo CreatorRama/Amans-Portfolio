@@ -13,7 +13,7 @@ const HeroSection = () => {
       snowflakesContainer.innerHTML = '';
       
       // Create 100 snowflakes
-      const snowflakeCount = 500;
+      const snowflakeCount = 1000;
       
       for (let i = 0; i < snowflakeCount; i++) {
         const snowflake = document.createElement('div');
@@ -43,7 +43,10 @@ const HeroSection = () => {
     createSnowflakes();
     
     // Recreate snowflakes on window resize
-    window.addEventListener('resize', createSnowflakes);
+    window.addEventListener('resize', ()=>{
+      createSnowflakes()
+
+    });
     
     // Cleanup
     return () => {
