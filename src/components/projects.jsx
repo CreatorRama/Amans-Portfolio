@@ -14,7 +14,7 @@ const ProjectSection = () => {
     const projects = [
         {
             id: 1,
-            title: "A chatbot using gemini-api",
+            title: "Stayfinder",
             description: "StayFinder is a full-stack property rental platform inspired by Airbnb, built with the MERN stack (MongoDB, Express, React, Node.js). It allows users to browse, book, and list properties with features like JWT authentication, interactive maps, and a mock payment system. The app includes host dashboards, advanced search filters, and responsive design for seamless user experience.",
             technologies: ["React", "express.js", "MongoDB", "Map-Box", "Stripe"],
             videoUrl: chatbot,
