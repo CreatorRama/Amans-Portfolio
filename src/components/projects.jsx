@@ -8,6 +8,7 @@ import student from '../assets/student.png';
 import apollo from '../assets/Apollo.png';
 import blog from '../assets/Blog.png';
 import task from '../assets/task.png';
+import CollabTodo from '../assets/Collab-Todo.png';
 import stayfinder from '../assets/stayfinder.png';
 
 const ProjectSection = () => {
@@ -24,6 +25,16 @@ const ProjectSection = () => {
         },
         {
             id: 2,
+            title: "Collaborative-todo-board",
+            description: "A collaborative to-do board that's like Trello, but supercharged with live sync and smart features!",
+            technologies: ["React", "express.js", "MongoDB", "Socket.io"],
+            videoUrl: chatbot,
+            demoUrl: "collab-todo-black.vercel.app",
+            thumbnailUrl: CollabTodo,
+            githubUrl: "https://github.com/CreatorRama/Collab-Todo",
+        },
+        {
+            id: 3,
             title: "A chatbot using gemini-api",
             description: "A comprehensive dashboard for tracking sales, inventory, and customer analytics with real-time data visualization.",
             technologies: ["React", "express.js", "MongoDB", "record-rtc", "tailwind"],
@@ -33,7 +44,7 @@ const ProjectSection = () => {
             githubUrl: "https://github.com/CreatorRama/chatbot-backend",
         },
         {
-            id: 3,
+            id: 4,
             title: "A custom Excalidraw Web App",
             description: "A machine learning application that generates unique artwork based on text prompts using transformer architecture.",
             technologies: ["React", "React-Konva", "Konva.js", "Tailwind"],
@@ -43,7 +54,7 @@ const ProjectSection = () => {
             githubUrl: "https://github.com/CreatorRama/Custom-Excalidraw-App",
         },
         {
-            id: 4,
+            id: 5,
             title: "Student Teacher Appointment System",
             description: "A cross-platform mobile application for workout tracking, nutrition planning, and fitness goals with social features.",
             technologies: ["React", "Express", "Mongodb", "Nodemailer"],
@@ -53,7 +64,7 @@ const ProjectSection = () => {
             githubUrl: "https://github.com/CreatorRama/student-techer-appointment-system",
         },
         {
-            id: 5,
+            id: 6,
             title: "Blog-Creator-App",
             description: "A Blog Creating App where we can publish and edit blogs ",
             technologies: ["NextJs", "Express", "Mongodb"],
@@ -63,7 +74,7 @@ const ProjectSection = () => {
             githubUrl: "https://github.com/CreatorRama/Blog-App",
         },
         {
-            id: 6,
+            id: 7,
             title: "Task Tracker System",
             description: "A Task creating app and track the status ",
             technologies: ["React", "Express", "Mongodb"],
@@ -73,7 +84,7 @@ const ProjectSection = () => {
             githubUrl: "https://github.com/CreatorRama/Task-Tracker",
         },
         {
-            id: 7,
+            id: 8,
             title: "Apollo-clone",
             description: "A doctor appointment system through apollo where we filter doctors based on various categories",
             technologies: ["NextJs", "Express", "Mongodb"],
