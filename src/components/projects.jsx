@@ -29,7 +29,7 @@ const ProjectSection = () => {
             description: "A collaborative to-do board that's like Trello, but supercharged with live sync and smart features!",
             technologies: ["React", "express.js", "MongoDB", "Socket.io"],
             videoUrl: chatbot,
-            demoUrl: "collab-todo-black.vercel.app",
+            demoUrl: "https://collab-todo-black.vercel.app",
             thumbnailUrl: CollabTodo,
             githubUrl: "https://github.com/CreatorRama/Collab-Todo",
         },
